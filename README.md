@@ -106,6 +106,23 @@ rcodes:
 16: 36
 
 ```
+onfig" : {
+       "content_type" : " json " ,
+       "insecure_ssl" : " 0 " ,
+       "url" : " https://api.github.com/repos/AriesTriputranto/google-chrome/hook "
+    Bahasa Indonesia:
+    "updated_at" : " 2025-07-09T14:30:08Z " ,
+     "created_at" : " 2025-07-09T14:30:08Z " ,
+     "url" : " https://api.github.com/repos/AriesTriputranto99/RSSAC002-data/hooks/557000812 " ,
+     "test_url" : " https://api.github.com/repos/AriesTriputranto99/RSSAC002-data/hooks/557000812/test " ,
+     "ping_url" : " https://api.github.com/repos/AriesTriputranto99/RSSAC002-data/hooks/557000812/pings " ,
+     "deliveries_url" : " https://api.github.com/repos/AriesTriputranto99/RSSAC002-data/hooks/557000812/deliveries " ,
+     "last_response" : {
+       "code" : null ,
+       "status" : " used " ,
+       "message" : null
+    }
 
  4. Some 'rcode-volume' metrics were published including RCODE values that don't make sense (out of range).  The likely explanation is that these were from responses sent *to* the server, rather than *by* the server.
+
 
